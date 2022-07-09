@@ -1,7 +1,7 @@
-function ItemListContainer() {
+function ItemListContainer(props) {
     return(
-        <div><p>Eagle Simulation & Training</p></div>
-    )
+        <div><p>{props.greeting}</p></div>
+    );
 }
 
 export default ItemListContainer;
