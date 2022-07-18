@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import addCart from "./ItemListContainer"
+import addCart from "../containers/ItemListContainer"
 
 export default function ItemCount({stock, initial, onAdd}) {
     const [counter, setCounter] = useState(initial);
